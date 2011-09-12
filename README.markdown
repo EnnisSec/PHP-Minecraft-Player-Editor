@@ -6,5 +6,5 @@ Fully scriptable, i use it to periodically set the player's XP to zero to preven
 
 Examples can be found in the two shell scripts mcplayerget and mcplayerset.
 
-It uses TheFrozenFire's NBT Decoder/Encoder library.
+It uses TheFrozenFire's NBT Decoder/Encoder library. Clone this tree with the "--recursive" option to have it pulled as well.
 **Requires the GMP Extension for PHP.**
