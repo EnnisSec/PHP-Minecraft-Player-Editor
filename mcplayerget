@@ -1,0 +1,7 @@
+#!/usr/bin/php -q
+<?php
+require('MinecraftPlayerNBT.class.php');
+
+$player = new MinecraftPlayerNBT($argv[1]);
+echo $player->getProperty($argv[2])."\n";
+?>

@@ -1,0 +1,7 @@
+#!/usr/bin/php -q
+<?php
+require('MinecraftPlayerNBT.class.php');
+
+$player = new MinecraftPlayerNBT($argv[1]);
+echo ( $player->setProperty($argv[2],$argv[3]) && $player->writeFile($argv[1]) ? "Ok.\n" : "Failed.\n" );
+?>
