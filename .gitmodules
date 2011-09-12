@@ -1,0 +1,3 @@
+[submodule "PHP-NBT-Decoder-Encoder"]
+	path = PHP-NBT-Decoder-Encoder
+	url = https://github.com/TheFrozenFire/PHP-NBT-Decoder-Encoder
